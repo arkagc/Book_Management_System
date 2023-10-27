@@ -37,7 +37,6 @@ public class BookController {
 	@GetMapping("/available_books")
 	public ModelAndView getAllBook() {
 		List<Book>list=service.getAllBook();
-		
 		return new ModelAndView("bookList", "book", list);
 	}
 	
