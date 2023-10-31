@@ -24,7 +24,6 @@ public class MyBookList {
 
 	public MyBookList() {
 		super();
-		// TODO Auto-generated constructor stub
 	}
 
 	public int getId() {
