@@ -25,7 +25,6 @@ public class Book {
 	
 	public Book() {
 		super();
-		// TODO Auto-generated constructor stub
 	}
 
 	public int getId() {
@@ -59,5 +58,4 @@ public class Book {
 	public void setPrice(String price) {
 		this.price = price;
 	}
-	
 }
